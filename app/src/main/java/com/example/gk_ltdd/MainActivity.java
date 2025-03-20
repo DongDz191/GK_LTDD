@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String username = getIntent().getStringExtra("username");
+        String username = getIntent().getStringExtra("USERNAME");
         TextView welcomeText = findViewById(R.id.txtWelcome);
         welcomeText.setText("Chào mừng, " + username + "!");
     }
